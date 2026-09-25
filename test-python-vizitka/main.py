@@ -1,0 +1,8 @@
+jmeno = input("Zadej své jméno: ")
+print("")
+print("------------")
+print("Jméno: " + jmeno)
+print("obor: IT")
+print("Zájmy: sport")
+print("------------")
+print("")
