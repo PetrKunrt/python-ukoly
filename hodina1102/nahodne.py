@@ -10,8 +10,8 @@ while tip != tajne_cislo and pokusy<max_pokusy:
     tip = int(input("Zadej sůj tip: "))
     if tip >20 or tip <1:
         print("Zadal jsi číslo mimo rozsah (1–20)!")
-        pokusy-=1
-    pokusy += 1
+    else:
+        pokusy += 1
     if tip > tajne_cislo:
         print("Tajné číslo je menší.")
     elif tip<tajne_cislo:
